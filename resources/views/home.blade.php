@@ -57,14 +57,14 @@
 
 <!-- footer andika -->
 @section('footer')
-  <footer>
+
   <footer class="bg-dark text-white text-center py-4">
     <div class="container">
         <p>&copy; {{ date('Y') }} My Website. All rights reserved.</p>
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="/privacy" class="text-white">tentang kami</a></li>
-            <li class="list-inline-item"><a href="/terms" class="text-white">aktivitas </a></li>
-            <li class="list-inline-item"><a href="/contact" class="text-white">Contact</a></li>
+            <li class="list-inline-item"><a href="#home" class= ext-white">tentang kami</a></li>
+            <li class="list-inline-item"><a href="#services" class="ext-white">aktivitas </a></li>
+            <li class="list-inline-item"><a href="#contact" class="ext-white">Contact</a></li>
         </ul>
     </div>
   </footer>
